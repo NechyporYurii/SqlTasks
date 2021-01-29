@@ -1,0 +1,1 @@
+select Users.firstName as UserName, count(Posts.authorId) as PostsQuantity From Blog2.Posts inner join Blog2.Users on Posts.authorId = Users.userId Group by Posts.authorId Order by count(Posts.authorId) Desc Limit 5;

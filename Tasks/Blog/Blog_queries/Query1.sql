@@ -1,0 +1,1 @@
+select COUNT(*) from Blog2.Posts;

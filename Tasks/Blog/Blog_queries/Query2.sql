@@ -1,0 +1,1 @@
+select COUNT(*) from Blog2.Posts where date=CURDATE() - INTERVAL 1 DAY;

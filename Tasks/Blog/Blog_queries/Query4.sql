@@ -1,0 +1,1 @@
+Select Posts.title as Post, group_concat(Tags.name)  as Tags from Blog2.Posts inner join Blog2.PostsTags on Posts.id = PostsTags.postId inner join Tags on PostsTags.tagId = Tags.tagId Group by Posts.title;
