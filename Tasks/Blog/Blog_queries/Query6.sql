@@ -1,1 +1,0 @@
-select Posts.title as Posts from Blog2.Posts where title LIKE 'S%';

@@ -1,1 +1,0 @@
-select Posts.title as PostName, Posts.date as DateOfPublishing from Blog2.Posts order by date desc limit 5;
